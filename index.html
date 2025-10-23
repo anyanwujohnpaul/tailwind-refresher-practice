@@ -2,25 +2,77 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Added the Tailwind Play CDN for HTML -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Added the Tailwind Play CDN for HTML -->
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <title>Tailwind Refresher Practice</title>
+	<title>Tailwind Refresher Practice</title>
 </head>
 
 <body>
-    <!-- Adding color to text -->
-    <p class='text-black-650'>Hello Jaypee</p>
-    <p class='text-blue-300'>Hello Jaypee</p>
+	<!-- Adding color to text -->
+	<p class='text-black-650'>Hello Jaypee</p>
+	<p class='text-blue-300'>Hello Jaypee</p>
+
+	<!-- Another way of adding color to text -->
+	<div class="bg-emerald-500">
+		<!-- This is not working for some weird reasons -->
+		<p class="text-[rgb(245, 39, 166)]">Hey, Let play some game</p>
+	</div>
 
 
-    <!-- Adding background color to a div -->
+	<!-- Adding background color and an inline-block to a div -->
 
-    <div class="bg-emerald-300 inline-block p-2 m-2">
-        <p>Hey, I love banana</p>
-    </div>
+	<div class="bg-emerald-300 inline-block">
+		<p>Hey, I love banana</p>
+	</div>
+
+	<!-- Adding padding to a text -->
+	<div class="bg-yellow-500">
+		<p class="p-4">Let add padding here</p>
+		<!-- Padding on the horizontal axis -->
+		<p class="px-4">Let add padding to the horizontal axis</p>
+
+		<!-- Padding on the vertical axis -->
+		<p class="py-4">Let add padding to the vertical axis</p>
+	</div>
+
+	<!-- Padding to just the right -->
+	<p class="pr-4">Let add some padding to the right</p>
+	<!-- Padding to just the left -->
+	<p class="pl-5">Let add some padding to the left</p>
+
+	<!-- Padding to just the top -->
+	<p class="pt-5">Let add some padding to the top</p>
+	<!-- Padding to just the bottom -->
+	<p class="pb-5">Let add some padding to the bottom</p>
+
+
+	<!-- Adding Margin to a text -->
+	<p class="m-5">Let add margin to this text</p>
+
+	<!-- Adding Margin to the horizontal axis -->
+	<p class="mx-5">Let add margin to the horizontal axis</p>
+
+	<!-- Adding Margin to the vertical axis -->
+	<p class="my-5">Let add margin to the vertical axis</p>
+
+
+	<!-- Margin to just the right -->
+	<p class="mr-4">Let add some margin to the right</p>
+
+	<!-- Margin to just the left -->
+	<p class="ml-5">Let add some margin to the left</p>
+
+	<!-- Margin to just the top -->
+	<p class="pt-5">Let add some margin to the top</p>
+
+	<!-- Margin to just the bottom -->
+	<p class="pb-5">Let add some margin to the bottom</p>
+
+
+
 
 </body>
 
