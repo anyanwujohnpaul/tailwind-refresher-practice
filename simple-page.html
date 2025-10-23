@@ -9,22 +9,34 @@
 </head>
 
 <body>
+    <!-- Added h-screen to this particular div:
+    This means that the div will have a height equal to the full height of the browser window 
+    -->
+    <!-- Added a width of 560px -->
+    <div class="min-h-screen bg-teal-100">
+        <div class="bg-teal-500 px-6 py-4 flex items-center justify-between">
+            <!-- Name of the website -->
+            <h1>My Website</h1>
+            <!-- Nav would serve as container for all our links -->
+            <nav class="flex flex-row gap-3 text-orange-400 bg-blue-500 py-4 px-4">
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
 
-<!-- Adding h-screen, min-h-screen and max-h-screen -->
+        </div>
+        <div>Core</div>
+        <div>Footer</div>
+    </div>
+
+
+    <!-- Adding h-screen, min-h-screen and max-h-screen -->
     <div class="h-screen bg-red-500">Fixed full-screen height</div>
     <div class="min-h-screen bg-green-500">Grows with content but at least fills screen</div>
     <div class="max-h-screen bg-blue-500 overflow-y-auto">Scrollable area capped to screen height</div>
 
-    <!-- Added h-screen to this particular div:
-    This means that the div will have a height equal to the full height of the browser window 
-    -->
-
-    <!-- Added a width of 560px -->
-    <div class="h-screen bg-teal-100 w-[560px]">
-        <div>Navbar</div>
-        <div>Core</div>
-        <div>Footer</div>
-    </div>
+    <!-- Stopped at 24:31 -->
 </body>
+
 
 </html>
