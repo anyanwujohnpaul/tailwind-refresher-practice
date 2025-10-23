@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Simple Page</title>
+</head>
+
+<body>
+
+<!-- Adding h-screen, min-h-screen and max-h-screen -->
+    <div class="h-screen bg-red-500">Fixed full-screen height</div>
+    <div class="min-h-screen bg-green-500">Grows with content but at least fills screen</div>
+    <div class="max-h-screen bg-blue-500 overflow-y-auto">Scrollable area capped to screen height</div>
+
+    <!-- Added h-screen to this particular div:
+    This means that the div will have a height equal to the full height of the browser window 
+    -->
+
+    <!-- Added a width of 560px -->
+    <div class="h-screen bg-teal-100 w-[560px]">
+        <div>Navbar</div>
+        <div>Core</div>
+        <div>Footer</div>
+    </div>
+</body>
+
+</html>
